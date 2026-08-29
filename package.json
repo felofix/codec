@@ -1,8 +1,8 @@
 {
-  "name": "claude-skill-brevity",
+  "name": "brevity-skill",
   "version": "1.0.0",
   "description": "Claude Code skill: semantic brevity mode - fixed-field telemetry output instead of prose",
-  "bin": { "claude-skill-brevity": "install.js" },
+  "bin": { "brevity-skill": "install.js" },
   "files": ["SKILL.md", "install.js"],
   "keywords": ["claude", "claude-code", "skill", "brevity", "tokens"],
   "license": "MIT",

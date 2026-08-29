@@ -21,7 +21,7 @@ See [SKILL.md](SKILL.md) for the full spec.
 ## npm
 
 ```bash
-npx claude-skill-brevity
+npx brevity-skill
 ```
 
 Copies `SKILL.md` into `~/.claude/skills/brevity/`.
