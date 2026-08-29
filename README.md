@@ -17,3 +17,11 @@ git clone https://github.com/felofix/brevity.git ~/.claude/skills/brevity
 Say `brevity mode`, `/brevity`, or ask for max token efficiency. Ask for prose to get expansion back.
 
 See [SKILL.md](SKILL.md) for the full spec.
+
+## npm
+
+```bash
+npx claude-skill-brevity
+```
+
+Copies `SKILL.md` into `~/.claude/skills/brevity/`.

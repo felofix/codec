@@ -1,0 +1,10 @@
+{
+  "name": "claude-skill-brevity",
+  "version": "1.0.0",
+  "description": "Claude Code skill: semantic brevity mode - fixed-field telemetry output instead of prose",
+  "bin": { "claude-skill-brevity": "install.js" },
+  "files": ["SKILL.md", "install.js"],
+  "keywords": ["claude", "claude-code", "skill", "brevity", "tokens"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/felofix/brevity.git" }
+}
