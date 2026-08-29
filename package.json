@@ -1,8 +1,8 @@
 {
-  "name": "codec-skills",
+  "name": "@felofix/codec",
   "version": "1.0.0",
   "description": "Claude Code skills: codec - brevity compresses output, feynman expands understanding",
-  "bin": { "codec-skills": "install.js" },
+  "bin": { "codec": "install.js" },
   "files": ["skills", "install.js"],
   "keywords": ["claude", "claude-code", "skill", "brevity", "feynman", "tokens", "explain"],
   "license": "MIT",
