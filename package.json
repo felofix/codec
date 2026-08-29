@@ -1,10 +1,10 @@
 {
-  "name": "brevity-skill",
+  "name": "codec-skills",
   "version": "1.0.0",
-  "description": "Claude Code skill: semantic brevity mode - fixed-field telemetry output instead of prose",
-  "bin": { "brevity-skill": "install.js" },
-  "files": ["SKILL.md", "install.js"],
-  "keywords": ["claude", "claude-code", "skill", "brevity", "tokens"],
+  "description": "Claude Code skills: codec - brevity compresses output, feynman expands understanding",
+  "bin": { "codec-skills": "install.js" },
+  "files": ["skills", "install.js"],
+  "keywords": ["claude", "claude-code", "skill", "brevity", "feynman", "tokens", "explain"],
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/felofix/brevity.git" }
+  "repository": { "type": "git", "url": "git+https://github.com/felofix/codec.git" }
 }

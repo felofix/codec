@@ -1,21 +1,34 @@
-# brevity
+# codec
 
-Claude Code skill: semantic brevity mode. Output becomes fixed-field, controlled-vocabulary telemetry instead of prose.
+Two Claude Code skills, one axis: how much language you spend per unit of meaning.
 
-`DEP:FAIL | CAUSE:DB_POOL_SAT | ACT:POOL+ | VERIFY:P95<200ms`
+A codec compresses and it expands. So does this.
 
-Not caveman English. Concepts compress, meaning doesn't.
+| skill | direction | for |
+|---|---|---|
+| **brevity** | compress | status, debug loops, long agent runs. Prose becomes fixed-field telemetry. |
+| **feynman** | expand | understanding something. Concrete case first, jargon last, gaps marked honestly. |
+
+```
+DEP:FAIL | CAUSE:DB_POOL_SAT | ACT:POOL+ | VERIFY:P95<200ms
+```
+
+that is brevity. feynman is what you invoke when you want to know *why* the pool saturated, explained so you could predict it next time.
 
 ## Install
 
 ```bash
-npx github:felofix/brevity
+npx github:felofix/codec
 ```
 
-Copies `SKILL.md` into `~/.claude/skills/brevity/`.
+Both skills into `~/.claude/skills/`. One only:
+
+```bash
+npx github:felofix/codec brevity
+```
 
 ## Use
 
-Say `brevity mode`, `/brevity`, or ask for max token efficiency. Ask for prose to get expansion back.
+Say `brevity` / `feynman`, or `/brevity`, `/feynman`.
 
-See [SKILL.md](SKILL.md) for the full spec.
+Specs: [skills/brevity/SKILL.md](skills/brevity/SKILL.md), [skills/feynman/SKILL.md](skills/feynman/SKILL.md)
