@@ -1,6 +1,6 @@
 ---
 name: feynman
-description: Explain anything using Feynman's method - plain words, concrete first, jargon only after the idea lands, and honest about the edges of what is known. Use when the user says "feynman", "/feynman", "explain it simply", "explain like I actually want to understand it", "ELI5 but real", or asks for an explanation of a concept, system, paper, or piece of code.
+description: Explain anything using Feynman's method - concrete case first, plain words, jargon only after the idea lands, honest about what is unknown. Use whenever the user asks for an explanation: "explain", "/feynman", "feynman", "how does X work", "why does X happen", "what is X", "help me understand", "walk me through", "ELI5", "explain it simply", or any request to understand a concept, system, paper, error, or piece of code.
 ---
 
 # Feynman

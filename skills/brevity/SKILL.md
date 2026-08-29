@@ -1,6 +1,6 @@
 ---
 name: brevity
-description: Semantic brevity mode. Compress output into fixed-field, controlled-vocabulary telemetry (STATE|OBS|CAUSE|ACT|VERIFY|CONF) instead of prose. Max decision-relevant info, min tokens. Use when the user says "brevity", "brevity mode", "semantic brevity", "/brevity", "compress output", or asks for maximum token efficiency without losing meaning.
+description: Semantic brevity mode. Compress output into fixed-field, controlled-vocabulary telemetry (STATE|OBS|CAUSE|ACT|VERIFY|CONF) instead of prose. Max decision-relevant info, min tokens. Use whenever the user asks for a short answer: "brevity", "/brevity", "be brief", "keep it short", "tldr", "just the conclusion", "bottom line", "short version", "skip the details", "no explanation", "less tokens", "answer only", or any request for maximum token efficiency.
 ---
 
 # Semantic Brevity
